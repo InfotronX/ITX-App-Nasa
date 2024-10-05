@@ -1,0 +1,16 @@
+C:\Projects\Nasa-Space-App-2024\ITX_App\ITX_App\obj\Debug\ITX_App.csproj.AssemblyReference.cache
+C:\Projects\Nasa-Space-App-2024\ITX_App\ITX_App\obj\Debug\ITX_App.Properties.Resources.resources
+C:\Projects\Nasa-Space-App-2024\ITX_App\ITX_App\obj\Debug\ITX_App.csproj.GenerateResource.cache
+C:\Projects\Nasa-Space-App-2024\ITX_App\ITX_App\obj\Debug\ITX_App.csproj.CoreCompileInputs.cache
+C:\Projects\Nasa-Space-App-2024\ITX_App\ITX_App\bin\Debug\ITX_App.exe.config
+C:\Projects\Nasa-Space-App-2024\ITX_App\ITX_App\bin\Debug\ITX_App.exe
+C:\Projects\Nasa-Space-App-2024\ITX_App\ITX_App\bin\Debug\ITX_App.pdb
+C:\Projects\Nasa-Space-App-2024\ITX_App\ITX_App\obj\Debug\ITX_App.Log_in_form.resources
+C:\Projects\Nasa-Space-App-2024\ITX_App\ITX_App\obj\Debug\ITX_App.exe
+C:\Projects\Nasa-Space-App-2024\ITX_App\ITX_App\obj\Debug\ITX_App.pdb
+C:\Projects\Nasa-Space-App-2024\ITX_App\ITX_App\bin\Debug\users-data-base.mdf
+C:\Projects\Nasa-Space-App-2024\ITX_App\ITX_App\bin\Debug\users-data-base_log.ldf
+C:\Projects\Nasa-Space-App-2024\ITX_App\ITX_App\obj\Debug\ITX_App.Exoplanets_3D_form__1.resources
+C:\Projects\Nasa-Space-App-2024\ITX_App\ITX_App\obj\Debug\ITX_App.Exoplanets_theory_form.resources
+C:\Projects\Nasa-Space-App-2024\ITX_App\ITX_App\obj\Debug\ITX_App.help_form.resources
+C:\Projects\Nasa-Space-App-2024\ITX_App\ITX_App\obj\Debug\ITX_App.account_create_form.resources
