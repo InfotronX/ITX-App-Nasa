@@ -14,3 +14,4 @@ C:\Projects\Nasa-Space-App-2024\ITX_App\ITX_App\obj\Debug\ITX_App.Exoplanets_3D_
 C:\Projects\Nasa-Space-App-2024\ITX_App\ITX_App\obj\Debug\ITX_App.Exoplanets_theory_form.resources
 C:\Projects\Nasa-Space-App-2024\ITX_App\ITX_App\obj\Debug\ITX_App.help_form.resources
 C:\Projects\Nasa-Space-App-2024\ITX_App\ITX_App\obj\Debug\ITX_App.account_create_form.resources
+C:\Projects\Nasa-Space-App-2024\ITX_App\ITX_App\obj\Debug\ITX_App.Main_Dash_Form.resources

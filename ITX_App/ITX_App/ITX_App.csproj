@@ -114,6 +114,9 @@
     <EmbeddedResource Include="Log_in_form.resx">
       <DependentUpon>Log_in_form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main_Dash_Form.resx">
+      <DependentUpon>Main_Dash_Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -139,6 +142,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\main_form_background_image.png" />
+    <None Include="Resources\main_dash_form_background_image.png" />
     <Content Include="users-data-base.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

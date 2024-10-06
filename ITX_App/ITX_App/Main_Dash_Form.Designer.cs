@@ -28,10 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Main_Dash_Form";
+            this.SuspendLayout();
+            // 
+            // Main_Dash_Form
+            // 
+            this.ClientSize = new System.Drawing.Size(282, 253);
+            this.Name = "Main_Dash_Form";
+            this.Load += new System.EventHandler(this.Main_Dash_Form_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

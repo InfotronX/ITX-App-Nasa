@@ -10,14 +10,13 @@ namespace ITX_App
 {
     public partial class Log_in_form : Form
     {
+        //TO DO schimbat doar baza de date
 
-        private String connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\users-data-base.mdf;Integrated Security=True";
-        String query;
-
-        SqlConnection con;
-
-        SqlCommand cmd;
-        SqlDataReader reader;
+        private String connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"D:\\Nasa Space App 2024\\Cod David\\test1\\test1\\Data_base_users.mdf\";Integrated Security=True";
+        private String query;
+        private SqlConnection con;
+        private SqlCommand cmd;
+        private SqlDataReader reader;
 
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnLogin;
@@ -38,7 +37,7 @@ namespace ITX_App
 
             try
             {
-                query = "select * from data";
+                query = "select username , password from Users";
 
                 con = new SqlConnection(connectionString);
 
@@ -46,22 +45,13 @@ namespace ITX_App
 
                 con.Open();
 
-                
-
                 DataSet ds = new DataSet();
-
-                //reader = cmd.ExecuteReader();
-                //con.Close();
-
+  
             }
-
             catch (Exception es)
-
             {
 
                 MessageBox.Show(es.Message);
-
-
 
             }
 
@@ -78,10 +68,8 @@ namespace ITX_App
             // Setăm imaginea de fundal a formularului
             this.BackgroundImage = Properties.Resources.ResourceManager.GetObject("main_form_background_image") as Image;
             this.BackgroundImageLayout = ImageLayout.Stretch;
-
-            // 
-            // btnClose
-            // 
+               
+            // btnClose         
             this.btnClose.Location = new System.Drawing.Point(320, 240);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 23);
@@ -93,15 +81,12 @@ namespace ITX_App
             this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.ForeColor = Color.White;  // Text alb
 
-            // Evenimente MouseEnter și MouseLeave
+            // MouseEnter și MouseLeave
             this.btnClose.MouseEnter += new EventHandler(this.Button_MouseEnter);
             this.btnClose.MouseLeave += new EventHandler(this.Button_MouseLeave);
-
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
 
-            // 
             // btnLogin
-            // 
             this.btnLogin.Location = new System.Drawing.Point(120, 180);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(75, 23);
@@ -113,15 +98,12 @@ namespace ITX_App
             this.btnLogin.FlatAppearance.BorderSize = 0;
             this.btnLogin.ForeColor = Color.White;  // Text alb
 
-            // Evenimente MouseEnter și MouseLeave
+            // MouseEnter și MouseLeave
             this.btnLogin.MouseEnter += new EventHandler(this.Button_MouseEnter);
             this.btnLogin.MouseLeave += new EventHandler(this.Button_MouseLeave);
-
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
 
-            // 
             // btnHelp
-            // 
             this.btnHelp.Location = new System.Drawing.Point(20, 240);
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Size = new System.Drawing.Size(75, 23);
@@ -133,15 +115,12 @@ namespace ITX_App
             this.btnHelp.FlatAppearance.BorderSize = 0;
             this.btnHelp.ForeColor = Color.White;  // Text alb
 
-            // Evenimente MouseEnter și MouseLeave
+            // MouseEnter și MouseLeave
             this.btnHelp.MouseEnter += new EventHandler(this.Button_MouseEnter);
             this.btnHelp.MouseLeave += new EventHandler(this.Button_MouseLeave);
-
             this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
-
-            // 
+ 
             // txtUsername
-            // 
             this.txtUsername.Location = new System.Drawing.Point(120, 60);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(200, 22);
@@ -149,9 +128,7 @@ namespace ITX_App
             this.txtUsername.BackColor = Color.White;  // Fundal alb pentru text box
             this.txtUsername.ForeColor = Color.Black;  // Text negru pentru text box
 
-            // 
             // txtPassword
-            // 
             this.txtPassword.Location = new System.Drawing.Point(120, 120);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(200, 22);
@@ -161,10 +138,7 @@ namespace ITX_App
             this.txtPassword.ForeColor = Color.Black;  // Text negru pentru text box
             this.lblPassword.ForeColor = System.Drawing.Color.White;
 
-
-            // 
             // lblUsername
-            // 
             this.lblUsername.AutoSize = true;
             this.lblUsername.Location = new System.Drawing.Point(20, 60);
             this.lblUsername.Name = "lblUsername";
@@ -174,9 +148,7 @@ namespace ITX_App
             this.lblUsername.BackColor = Color.Transparent;
             this.lblUsername.ForeColor = System.Drawing.Color.White;
 
-            // 
             // lblPassword
-            // 
             this.lblPassword.AutoSize = true;
             this.lblPassword.Location = new System.Drawing.Point(20, 120);
             this.lblPassword.Name = "lblPassword";
@@ -185,9 +157,7 @@ namespace ITX_App
             this.lblPassword.Text = "Password:";
             this.lblPassword.BackColor = Color.Transparent;
 
-            // 
             // btnCreateAccount
-            // 
             this.btnCreateAccount.Location = new System.Drawing.Point(220, 180);
             this.btnCreateAccount.Name = "btnCreateAccount";
             this.btnCreateAccount.Size = new System.Drawing.Size(100, 23);
@@ -202,12 +172,9 @@ namespace ITX_App
             // Evenimente MouseEnter și MouseLeave
             this.btnCreateAccount.MouseEnter += new EventHandler(this.Button_MouseEnter);
             this.btnCreateAccount.MouseLeave += new EventHandler(this.Button_MouseLeave);
-
             this.btnCreateAccount.Click += new System.EventHandler(this.btnCreateAccount_Click);
 
-            // 
             // MainForm
-            // 
             this.StartPosition = FormStartPosition.CenterScreen;
             this.ClientSize = new System.Drawing.Size(420, 420);
             this.Controls.Add(this.btnCreateAccount);
@@ -224,7 +191,7 @@ namespace ITX_App
             this.PerformLayout();
         }
 
-        // Event handler pentru MouseEnter
+        // MouseEnter
         private void Button_MouseEnter(object sender, EventArgs e)
         {
             Button btn = sender as Button;
@@ -234,7 +201,7 @@ namespace ITX_App
             }
         }
 
-        // Event handler pentru MouseLeave
+        // MouseLeave
         private void Button_MouseLeave(object sender, EventArgs e)
         {
             Button btn = sender as Button;
@@ -253,15 +220,32 @@ namespace ITX_App
         // butonul de login
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            reader = cmd.ExecuteReader();
+         
+            bool verif = false;
             string username = txtUsername.Text;
             string password = txtPassword.Text;
+            
+            while(reader.Read() && verif == false)
+            {
+                if (reader["username"].ToString() == username)
+                {
+                    if (reader["password"].ToString() == password)
+                        verif = true;
+                }
+            }
 
-            //MessageBox.Show(reader["username"].ToString());
-            //TODO facut legatura baza de date
-            MessageBox.Show($"Logging in with Username: {username}");
-
-            Main_Dash_Form open = new Main_Dash_Form();
-            open.Show();
+            if (verif == true)
+            {
+                reader.Close();
+                Main_Dash_Form open = new Main_Dash_Form();
+                open.Show();
+            }
+            else 
+            {
+                MessageBox.Show("Username or password are wrong");
+                reader.Close();
+            }
         }
 
         // butonul de ajutor
@@ -271,7 +255,6 @@ namespace ITX_App
             open.ShowDialog();
         }
 
-        // butonul de creare cont
         // butonul de creare cont
         private void btnCreateAccount_Click(object sender, EventArgs e)
         {

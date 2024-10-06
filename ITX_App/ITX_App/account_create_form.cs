@@ -10,11 +10,11 @@ namespace ITX_App
     public partial class account_create_form : Form
     {
         private String connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\users-data-base.mdf;Integrated Security=True";
-        String query;
+        private String query;
 
-        SqlConnection con;
+        private SqlConnection con;
 
-        SqlCommand cmd;
+        private SqlCommand cmd;
         public account_create_form()
         {
             Init();
@@ -24,7 +24,7 @@ namespace ITX_App
         {
             try
             {
-                query = "select * from data";
+                query = "select * from users";
 
                 con = new SqlConnection(connectionString);
 
