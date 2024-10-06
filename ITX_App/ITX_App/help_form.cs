@@ -110,7 +110,7 @@ namespace ITX_App
         // Event handler pentru click pe butonul Tutorial Aplicație
         private void BtnAppTutorial_Click(object sender, EventArgs e)
         {
-            Process.Start("https://www.youtube.com/watch?v=example_app_tutorial"); 
+            Process.Start("https://youtu.be/33vu7r_PrU4"); 
         }
 
         // Event handler pentru click pe butonul de închidere

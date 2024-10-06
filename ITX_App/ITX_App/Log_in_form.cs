@@ -10,8 +10,9 @@ namespace ITX_App
 {
     public partial class Log_in_form : Form
     {
-        
-        private String connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\users-data-base.mdf;Integrated Security=True";
+        // Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\users-data-base.mdf;Integrated Security=True
+        // 
+        private String connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"D:\\Nasa Space App 2024\\Cod David\\test1\\test1\\Data_base_users.mdf\";Integrated Security=True";
         private String query;
         private SqlConnection con;
         private SqlCommand cmd;

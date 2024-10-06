@@ -3,6 +3,17 @@
   "WorkspaceRootPath": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__PROJECTS_NASA_SPACE_APP_2024_ITX_APP_ITX_APP_USERS_DATA_BASE.MDF/True/SqlTable/dbo.users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE588F1C-75AF-478A-8B3A-F9BD41E61624}|ITX_App\\ITX_App.csproj|C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\itx_app\\help_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE588F1C-75AF-478A-8B3A-F9BD41E61624}|ITX_App\\ITX_App.csproj|solutionrelative:itx_app\\help_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE588F1C-75AF-478A-8B3A-F9BD41E61624}|ITX_App\\ITX_App.csproj|C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\itx_app\\help_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FE588F1C-75AF-478A-8B3A-F9BD41E61624}|ITX_App\\ITX_App.csproj|solutionrelative:itx_app\\help_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FE588F1C-75AF-478A-8B3A-F9BD41E61624}|ITX_App\\ITX_App.csproj|c:\\projects\\nasa-space-app-2024\\itx_app\\itx_app\\exoplanets_3d_form_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE588F1C-75AF-478A-8B3A-F9BD41E61624}|ITX_App\\ITX_App.csproj|solutionrelative:itx_app\\exoplanets_3d_form_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,14 +32,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FE588F1C-75AF-478A-8B3A-F9BD41E61624}|ITX_App\\ITX_App.csproj|C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\itx_app\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{FE588F1C-75AF-478A-8B3A-F9BD41E61624}|ITX_App\\ITX_App.csproj|solutionrelative:itx_app\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE588F1C-75AF-478A-8B3A-F9BD41E61624}|ITX_App\\ITX_App.csproj|C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\itx_app\\help_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE588F1C-75AF-478A-8B3A-F9BD41E61624}|ITX_App\\ITX_App.csproj|solutionrelative:itx_app\\help_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE588F1C-75AF-478A-8B3A-F9BD41E61624}|ITX_App\\ITX_App.csproj|C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\itx_app\\help_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FE588F1C-75AF-478A-8B3A-F9BD41E61624}|ITX_App\\ITX_App.csproj|solutionrelative:itx_app\\help_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE588F1C-75AF-478A-8B3A-F9BD41E61624}|ITX_App\\ITX_App.csproj|C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\itx_app\\log_in_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -69,7 +72,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -77,44 +80,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Exoplanets_3D_form_1.cs [Design]",
-              "DocumentMoniker": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\Exoplanets_3D_form_1.cs",
-              "RelativeDocumentMoniker": "ITX_App\\Exoplanets_3D_form_1.cs",
-              "ToolTip": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\Exoplanets_3D_form_1.cs [Design]",
-              "RelativeToolTip": "ITX_App\\Exoplanets_3D_form_1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T08:47:15.577Z",
-              "EditorCaption": " [Design]"
+              "DocumentIndex": 0,
+              "Title": "dbo.users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__PROJECTS_NASA_SPACE_APP_2024_ITX_APP_ITX_APP_USERS_DATA_BASE.MDF/True/SqlTable/dbo.users.sql",
+              "ToolTip": "dbo.users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-06T19:54:23.595Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Exoplanets_3D_form_1.cs",
               "DocumentMoniker": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\Exoplanets_3D_form_1.cs",
               "RelativeDocumentMoniker": "ITX_App\\Exoplanets_3D_form_1.cs",
               "ToolTip": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\Exoplanets_3D_form_1.cs",
               "RelativeToolTip": "ITX_App\\Exoplanets_3D_form_1.cs",
-              "ViewState": "AQIAAH4AAAAAAAAAAAAswJoAAAAAAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAgwJoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T08:47:16.463Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Main_Dash_Form.cs [Design]",
-              "DocumentMoniker": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\Main_Dash_Form.cs",
-              "RelativeDocumentMoniker": "ITX_App\\Main_Dash_Form.cs",
-              "ToolTip": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\Main_Dash_Form.cs [Design]",
-              "RelativeToolTip": "ITX_App\\Main_Dash_Form.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T08:48:14.326Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Main_Dash_Form.cs",
               "DocumentMoniker": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\Main_Dash_Form.cs",
               "RelativeDocumentMoniker": "ITX_App\\Main_Dash_Form.cs",
@@ -127,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Resources.resx",
               "DocumentMoniker": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "ITX_App\\Properties\\Resources.resx",
@@ -139,20 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "help_form.cs",
-              "DocumentMoniker": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\help_form.cs",
-              "RelativeDocumentMoniker": "ITX_App\\help_form.cs",
-              "ToolTip": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\help_form.cs",
-              "RelativeToolTip": "ITX_App\\help_form.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T08:02:22.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "help_form.cs [Design]",
               "DocumentMoniker": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\help_form.cs",
               "RelativeDocumentMoniker": "ITX_App\\help_form.cs",
@@ -164,7 +140,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
+              "Title": "help_form.cs",
+              "DocumentMoniker": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\help_form.cs",
+              "RelativeDocumentMoniker": "ITX_App\\help_form.cs",
+              "ToolTip": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\help_form.cs",
+              "RelativeToolTip": "ITX_App\\help_form.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAUwHAAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T08:02:22.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Main_Dash_Form.cs [Design]",
+              "DocumentMoniker": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\Main_Dash_Form.cs",
+              "RelativeDocumentMoniker": "ITX_App\\Main_Dash_Form.cs",
+              "ToolTip": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\Main_Dash_Form.cs [Design]",
+              "RelativeToolTip": "ITX_App\\Main_Dash_Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T08:48:14.326Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Exoplanets_3D_form_1.cs [Design]",
+              "DocumentMoniker": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\Exoplanets_3D_form_1.cs",
+              "RelativeDocumentMoniker": "ITX_App\\Exoplanets_3D_form_1.cs",
+              "ToolTip": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\Exoplanets_3D_form_1.cs [Design]",
+              "RelativeToolTip": "ITX_App\\Exoplanets_3D_form_1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T08:47:15.577Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Log_in_form.cs [Design]",
               "DocumentMoniker": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\Log_in_form.cs",
               "RelativeDocumentMoniker": "ITX_App\\Log_in_form.cs",
@@ -176,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Exoplanets_theory_form.cs",
               "DocumentMoniker": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\Exoplanets_theory_form.cs",
               "RelativeDocumentMoniker": "ITX_App\\Exoplanets_theory_form.cs",
@@ -189,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Log_in_form.cs",
               "DocumentMoniker": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\Log_in_form.cs",
               "RelativeDocumentMoniker": "ITX_App\\Log_in_form.cs",
@@ -202,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Exoplanets_theory_form.cs [Design]",
               "DocumentMoniker": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\Exoplanets_theory_form.cs",
               "RelativeDocumentMoniker": "ITX_App\\Exoplanets_theory_form.cs",
@@ -214,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "account_create_form.cs",
               "DocumentMoniker": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\account_create_form.cs",
               "RelativeDocumentMoniker": "ITX_App\\account_create_form.cs",
@@ -227,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "account_create_form.cs [Design]",
               "DocumentMoniker": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\account_create_form.cs",
               "RelativeDocumentMoniker": "ITX_App\\account_create_form.cs",
@@ -239,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ITX_App",
               "DocumentMoniker": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\ITX_App.csproj",
               "RelativeDocumentMoniker": "ITX_App\\ITX_App.csproj",
@@ -250,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Projects\\Nasa-Space-App-2024\\ITX_App\\ITX_App\\App.config",
               "RelativeDocumentMoniker": "ITX_App\\App.config",
