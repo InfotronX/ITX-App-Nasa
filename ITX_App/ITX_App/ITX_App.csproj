@@ -67,11 +67,11 @@
     <Compile Include="account_create_form.Designer.cs">
       <DependentUpon>account_create_form.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exoplanets_3D_form_#1.cs">
+    <Compile Include="Exoplanets_3D_form_1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exoplanets_3D_form_#1.Designer.cs">
-      <DependentUpon>Exoplanets_3D_form_#1.cs</DependentUpon>
+    <Compile Include="Exoplanets_3D_form_1.Designer.cs">
+      <DependentUpon>Exoplanets_3D_form_1.cs</DependentUpon>
     </Compile>
     <Compile Include="Exoplanets_theory_form.cs">
       <SubType>Form</SubType>
@@ -102,8 +102,8 @@
     <EmbeddedResource Include="account_create_form.resx">
       <DependentUpon>account_create_form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exoplanets_3D_form_#1.resx">
-      <DependentUpon>Exoplanets_3D_form_#1.cs</DependentUpon>
+    <EmbeddedResource Include="Exoplanets_3D_form_1.resx">
+      <DependentUpon>Exoplanets_3D_form_1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Exoplanets_theory_form.resx">
       <DependentUpon>Exoplanets_theory_form.cs</DependentUpon>
@@ -143,6 +143,29 @@
   <ItemGroup>
     <None Include="Resources\main_form_background_image.png" />
     <None Include="Resources\main_dash_form_background_image.png" />
+    <None Include="Resources\help_form_background_image.png" />
+    <None Include="Resources\create_account_form_background_image.png" />
+    <None Include="Resources\theory_form_background_image.png" />
+    <None Include="Resources\background.png" />
+    <None Include="Resources\planet1.jpg" />
+    <None Include="Resources\planet2.jpg" />
+    <None Include="Resources\planet3.png" />
+    <None Include="Resources\planet4.png" />
+    <None Include="Resources\planet5.jpg" />
+    <None Include="Resources\planet6.jpg" />
+    <None Include="Resources\planet7.jpg" />
+    <None Include="Resources\planet8.png" />
+    <None Include="Resources\planet9.jpg" />
+    <None Include="Resources\planet10.jpg" />
+    <None Include="Resources\planet11.png" />
+    <None Include="Resources\planet12.png" />
+    <None Include="Resources\planet13.jpg" />
+    <None Include="Resources\planet14.jpg" />
+    <None Include="Resources\planet15.png" />
+    <None Include="Resources\planet16.jpg" />
+    <None Include="Resources\planet17.jpg" />
+    <None Include="Resources\planet18.png" />
+    <None Include="Resources\planet19.jpg" />
     <Content Include="users-data-base.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

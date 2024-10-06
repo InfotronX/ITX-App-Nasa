@@ -4,6 +4,7 @@ using System.Data;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.Drawing;
+using ITX_App.Properties;
 
 namespace ITX_App
 {
@@ -34,22 +35,16 @@ namespace ITX_App
 
                 DataSet ds = new DataSet();
 
-                MessageBox.Show("connect with sql server");
-
                 //con.Close();
 
             }
-
             catch (Exception es)
-
             {
-
                 MessageBox.Show(es.Message);
-
-
-
             }
 
+
+            
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
@@ -120,66 +115,76 @@ namespace ITX_App
             // 
             // lblUsername
             // 
+            // lblUsername
             this.lblUsername.AutoSize = true;
             this.lblUsername.Location = new System.Drawing.Point(30, 30);
             this.lblUsername.Name = "lblUsername";
             this.lblUsername.Size = new System.Drawing.Size(77, 17);
             this.lblUsername.TabIndex = 7;
             this.lblUsername.Text = "Username:";
-            // 
+            this.lblUsername.ForeColor = Color.White;  // Text alb
+            this.lblUsername.BackColor = Color.Transparent;  // Fundal transparent
+
             // lblPassword
-            // 
             this.lblPassword.AutoSize = true;
             this.lblPassword.Location = new System.Drawing.Point(30, 70);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(73, 17);
             this.lblPassword.TabIndex = 8;
             this.lblPassword.Text = "Password:";
-            // 
+            this.lblPassword.ForeColor = Color.White;  // Text alb
+            this.lblPassword.BackColor = Color.Transparent;  // Fundal transparent
+
             // lblEmail
-            // 
             this.lblEmail.AutoSize = true;
             this.lblEmail.Location = new System.Drawing.Point(30, 110);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(46, 17);
             this.lblEmail.TabIndex = 9;
             this.lblEmail.Text = "Email:";
-            // 
+            this.lblEmail.ForeColor = Color.White;  // Text alb
+            this.lblEmail.BackColor = Color.Transparent;  // Fundal transparent
+
             // lblFirstName
-            // 
             this.lblFirstName.AutoSize = true;
             this.lblFirstName.Location = new System.Drawing.Point(30, 150);
             this.lblFirstName.Name = "lblFirstName";
             this.lblFirstName.Size = new System.Drawing.Size(80, 17);
             this.lblFirstName.TabIndex = 10;
             this.lblFirstName.Text = "First Name:";
-            // 
+            this.lblFirstName.ForeColor = Color.White;  // Text alb
+            this.lblFirstName.BackColor = Color.Transparent;  // Fundal transparent
+
             // lblLastName
-            // 
             this.lblLastName.AutoSize = true;
             this.lblLastName.Location = new System.Drawing.Point(30, 190);
             this.lblLastName.Name = "lblLastName";
             this.lblLastName.Size = new System.Drawing.Size(80, 17);
             this.lblLastName.TabIndex = 11;
             this.lblLastName.Text = "Last Name:";
-            // 
+            this.lblLastName.ForeColor = Color.White;  // Text alb
+            this.lblLastName.BackColor = Color.Transparent;  // Fundal transparent
+
             // lblPhoneNumber
-            // 
             this.lblPhoneNumber.AutoSize = true;
             this.lblPhoneNumber.Location = new System.Drawing.Point(30, 230);
             this.lblPhoneNumber.Name = "lblPhoneNumber";
             this.lblPhoneNumber.Size = new System.Drawing.Size(107, 17);
             this.lblPhoneNumber.TabIndex = 12;
             this.lblPhoneNumber.Text = "Phone Number:";
-            // 
+            this.lblPhoneNumber.ForeColor = Color.White;  // Text alb
+            this.lblPhoneNumber.BackColor = Color.Transparent;  // Fundal transparent
+
             // lblAddress
-            // 
             this.lblAddress.AutoSize = true;
             this.lblAddress.Location = new System.Drawing.Point(30, 270);
             this.lblAddress.Name = "lblAddress";
             this.lblAddress.Size = new System.Drawing.Size(64, 17);
             this.lblAddress.TabIndex = 13;
             this.lblAddress.Text = "Address:";
+            this.lblAddress.ForeColor = Color.White;  // Text alb
+            this.lblAddress.BackColor = Color.Transparent;  // Fundal transparent
+
             // 
             // btnCreateAccount
             // 
@@ -222,11 +227,12 @@ namespace ITX_App
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
+            this.BackgroundImage = Resources.ResourceManager.GetObject("create_account_form_background_image") as Image;
+            this.BackgroundImageLayout = ImageLayout.Stretch;
             this.Name = "CreateAccountForm";
             this.Text = "Create Account";
             this.ResumeLayout(false);
             this.PerformLayout();
-
 
         }
 

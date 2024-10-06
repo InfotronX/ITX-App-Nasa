@@ -26,11 +26,11 @@ namespace ITX_App
             Button btnClose = new Button();
 
             // Setarea proprietăților pentru butonul Lesson 1
-            btnLesson1.Location = new Point(60, 60); // Poziționarea butonului Lesson 1
+            btnLesson1.Location = new Point(60, 100); // Poziționarea butonului Lesson 1
             btnLesson1.Name = "btnLesson1"; // Numele butonului
             btnLesson1.Size = new Size(300, 70); // Dimensiunea butonului Lesson 1
             btnLesson1.TabIndex = 0; // Indexul pentru tabulare
-            btnLesson1.Text = "Lesson 1: Solar System";
+            btnLesson1.Text = "Lesson 1: Theory of Exoplanets";
             btnLesson1.BackColor = Color.Transparent; // Fundal transparent
             btnLesson1.ForeColor = Color.White; // Text alb
             btnLesson1.FlatStyle = FlatStyle.Flat; // Stil plat
@@ -40,7 +40,7 @@ namespace ITX_App
             btnLesson1.Click += new EventHandler(BtnLesson1_Click);
 
             // Setarea proprietăților pentru butonul Lesson 2
-            btnLesson2.Location = new Point(60, 140); // Poziționarea butonului Lesson 2
+            btnLesson2.Location = new Point(60, 180); // Poziționarea butonului Lesson 2
             btnLesson2.Name = "btnLesson2";
             btnLesson2.Size = new Size(300, 70); // Dimensiunea butonului Lesson 2
             btnLesson2.TabIndex = 1;
@@ -52,20 +52,6 @@ namespace ITX_App
             btnLesson2.MouseEnter += BtnMouseEnter;
             btnLesson2.MouseLeave += BtnMouseLeave;
             btnLesson2.Click += new EventHandler(BtnLesson2_Click);
-
-            // Setarea proprietăților pentru butonul Lesson 3
-            btnLesson3.Location = new Point(60, 220); // Poziționarea butonului Lesson 3
-            btnLesson3.Name = "btnLesson3";
-            btnLesson3.Size = new Size(300, 70); // Dimensiunea butonului Lesson 3
-            btnLesson3.TabIndex = 2;
-            btnLesson3.Text = "Lesson 3: Space Exploration";
-            btnLesson3.BackColor = Color.Transparent;
-            btnLesson3.ForeColor = Color.White;
-            btnLesson3.FlatStyle = FlatStyle.Flat;
-            btnLesson3.FlatAppearance.BorderSize = 0;
-            btnLesson3.MouseEnter += BtnMouseEnter;
-            btnLesson3.MouseLeave += BtnMouseLeave;
-            btnLesson3.Click += new EventHandler(BtnLesson3_Click);
 
             // Setarea proprietăților pentru butonul de Close
             btnClose.Location = new Point(320, 360); // Poziționarea butonului Close în dreapta jos
@@ -84,7 +70,6 @@ namespace ITX_App
             // Adăugăm butoanele în formular
             this.Controls.Add(btnLesson1);
             this.Controls.Add(btnLesson2);
-            this.Controls.Add(btnLesson3);
             this.Controls.Add(btnClose);
 
             // Opțional: adăugăm un fundal
@@ -117,25 +102,22 @@ namespace ITX_App
         // Event handler pentru click pe butonul Lesson 1
         private void BtnLesson1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Going to Lesson 1: Solar System");
+            Exoplanets_theory_form open = new Exoplanets_theory_form();
+            open.ShowDialog();
         }
 
         // Event handler pentru click pe butonul Lesson 2
         private void BtnLesson2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Going to Lesson 2: Exoplanets");
-        }
-
-        // Event handler pentru click pe butonul Lesson 3
-        private void BtnLesson3_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Going to Lesson 3: Space Exploration");
+            Exoplanets_3D_form__1 open = new Exoplanets_3D_form__1();
+            open.ShowDialog();
+           
         }
 
         // Event handler pentru click pe butonul de închidere
         private void BtnClose_Click(object sender, EventArgs e)
         {
-            Application.Exit(); // Închide aplicația
+            Close(); // Închide aplicația
         }
 
         private void Main_Dash_Form_Load(object sender, EventArgs e)

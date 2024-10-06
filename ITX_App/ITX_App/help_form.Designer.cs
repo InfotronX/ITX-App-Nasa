@@ -32,11 +32,8 @@
             // 
             // help_form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(282, 253);
             this.Name = "help_form";
-            this.Text = "help_form";
             this.Load += new System.EventHandler(this.help_form_Load);
             this.ResumeLayout(false);
 
